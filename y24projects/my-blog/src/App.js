@@ -1,18 +1,15 @@
 import './App.css';
+import Navbar from './NavBar.js';
+import Home from './Home.js';
 
 function App() {
-  const myStr = "Hello";
-  const a = 2.5;
-  const myLink = "https://newerp.kluniversity.in/";
-
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>Hello World</h1>
-        <h1>{myStr}</h1>
-        <h1>{a}</h1>
-        <a href={myLink}>My Link</a>
+        Hello World
       </div>
+      <Home />
     </div>
   );
 }
