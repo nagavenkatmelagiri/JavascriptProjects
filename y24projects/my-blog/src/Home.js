@@ -1,11 +1,11 @@
 const Home = () => {
-    const handleClick = () => {
-        console.log("hello everyone");
+    const handleClickAgain = (name) => {
+        console.log("hello " + name);
     };
     return (
         <div className="home">
-            <h2>Welcome to My Blog</h2>
-            <button onClick={handleClick}>Click Me</button>
+            <h2>Home page</h2>
+            <button onClick={() => handleClickAgain("Venkat")}>Click Me</button>
             <h3>Latest Posts</h3>   
         </div>
     );
