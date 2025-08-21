@@ -1,0 +1,7 @@
+{
+    "blogs": [
+        { "title": "Salaar", "body": "Prabhas", "author": "Neel", "id": 1 },
+        { "title": "RRR", "body": "NTR", "author": "Rajamouli", "id": 2 },
+        { "title": "Athadu", "body": "Mahesh Babu", "author": "Trivikram", "id": 3 }
+    ]
+}
